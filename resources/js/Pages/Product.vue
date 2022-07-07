@@ -8,6 +8,7 @@ defineProps({
     canRegister: Boolean,
     laravelVersion: String,
     phpVersion: String,
+    product: Object,
 })
 </script>
 
@@ -15,6 +16,8 @@ defineProps({
 
     <Head title="JerSystem" />
     <TheNavbar />
+
+    <p>{{ product.name }}</p>
 
     <TheFooter />
 
