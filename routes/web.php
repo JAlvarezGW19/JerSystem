@@ -25,10 +25,34 @@ Route::get('/', function () {
     ]);
 });
 
-Route::prefix('/products')->group(function () {
+Route::get('/nosotros', function () {
+    return Inertia::render('Nosotros');
+});
+
+Route::get('/vision', function () {
+    return Inertia::render('Vision');
+});
+
+Route::get('/mision', function () {
+    return Inertia::render('Mision');
+});
+
+Route::get('/historia', function () {
+    return Inertia::render('Historia');
+});
+
+Route::get('/products', function () {
+    return Inertia::render('Products');
+});
+
+Route::get('/product', function () {
+    return Inertia::render('Product');
+});
+
+/*Route::prefix('/products')->group(function () {
     Route::get('/', [ProductController::class, 'index'])->name('products.index');
     Route::get('/{product}', [ProductController::class, 'show'])->name('products.show');
-});
+});*/
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');

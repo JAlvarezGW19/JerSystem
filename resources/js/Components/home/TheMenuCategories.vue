@@ -7,7 +7,7 @@
            
                 <div class="categorias">
 
-                    <a href="list" class="categoria">
+                    <a href="/products" class="categoria">
                         <div class="icono">
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-devices-pc" width="100" height="100" viewBox="0 0 24 24" stroke-width="0.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -22,7 +22,7 @@
                         <h5>Computadoras</h5>
                     </a>
 
-                    <a href="list" class="categoria">
+                    <a href="/products" class="categoria">
                         <div class="icono">
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-laptop" width="100" height="100" viewBox="0 0 24 24" stroke-width="0.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -33,7 +33,7 @@
                         <h5>Laptops</h5>
                     </a>
 
-                    <a href="list" class="categoria">
+                    <a href="/products" class="categoria">
                         <div class="icono">
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-printer" width="100" height="100" viewBox="0 0 24 24" stroke-width="0.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -45,7 +45,7 @@
                         <h5>Impresoras</h5>
                     </a>
 
-                    <a href="list" class="categoria">
+                    <a href="/products" class="categoria">
                         <div class="icono">
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-desktop" width="100" height="100" viewBox="0 0 24 24" stroke-width="0.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -58,7 +58,7 @@
                         <h5>Monitores</h5>
                     </a>
 
-                    <a href="list" class="categoria">
+                    <a href="/products" class="categoria">
                         <div class="icono">
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-cpu" width="100" height="100" viewBox="0 0 24 24" stroke-width="0.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -77,7 +77,7 @@
                         <h5>Procesadores</h5>
                     </a>
 
-                    <a href="list" class="categoria">
+                    <a href="/products" class="categoria">
                         <div class="icono">
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-windows" width="100" height="100" viewBox="0 0 24 24" stroke-width="0.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -86,10 +86,10 @@
                                 <line x1="4" y1="12" x2="20" y2="12" />
                             </svg>
                         </div>
-                        <h5>Microsoft, licencias virtuales</h5>
+                        <h5>Software</h5>
                     </a>
 
-                    <a href="list" class="categoria">
+                    <a href="/products" class="categoria">
                         <div class="icono">
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-cash-banknote" width="100" height="100" viewBox="0 0 24 24" stroke-width="0.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -102,7 +102,7 @@
                         <h5>Multimedia</h5>
                     </a>
 
-                    <a href="list" class="categoria">
+                    <a href="/products" class="categoria">
                         <div class="icono">
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-keyboard" width="100" height="100" viewBox="0 0 24 24" stroke-width="0.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -123,89 +123,3 @@
             </div>
 
         </template>
-
-<style>
-
-    .menu{
-        display: flex;
-        justify-content: center;
-    }
-    .titulo-categorias{
-        text-align: center;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-    }
-
-    .categorias{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        row-gap: 0;
-        margin-left: 18%;
-        margin-right: 18%;
-    }
-
-    @media (min-width: 400px){
-        .categorias{
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            row-gap: 0;
-            margin-left: 18%;
-            margin-right: 18%;
-            
-        }
-    }
-
-    @media (min-width: 768px){
-        .categorias{
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            row-gap: 0;
-            margin-left: 18%;
-            margin-right: 18%;
-            
-        }
-    }
-
-    @media (min-width: 1140px){
-        .categorias{
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            row-gap: 0;
-            margin-left: 18%;
-            margin-right: 18%;
-            
-        }
-    }
-
-    .categorias a:hover{
-        background: #7F9CAF;
-        color: white;
-    }
-
-    .categorias a:hover .icon{
-        stroke: white;
-    }
-
-    .categoria{
-        background-color: white;
-        height: 15rem;
-        width: 15rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 1rem;
-        text-decoration: none;
-        color: black;
-    }
-
-    .categoria h5 {
-        text-align: center;
-    }
-
-    .categoria .icono {
-        display: flex;
-        justify-content: center;
-        align-content: center;
-    }
-</style>

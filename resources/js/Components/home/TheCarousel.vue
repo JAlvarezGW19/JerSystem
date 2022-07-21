@@ -21,22 +21,3 @@
         </button>
     </div>
 </template>
-
-<style>
-    .seccion-carousel{
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 24rem;
-        margin-bottom: 2rem;
-    }
-    .imagen-carousel-1{
-        background-image: url(../../../img/C1.png);
-    }
-    .imagen-carousel-2{
-        background-image: url(../../../img/C2.jpg);
-    }
-    .imagen-carousel-3{
-        background-image: url(../../../img/C3.jpg);
-    }
-</style>

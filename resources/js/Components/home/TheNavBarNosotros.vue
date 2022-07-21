@@ -64,7 +64,22 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/nosotros" role="button">
-                        <span class="texto-categorias">Nosotros</span>
+                        <span class="texto-categorias">¿Quiénes somos?</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/vision" role="button">
+                        <span class="texto-categorias">Visión</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mision" role="button">
+                        <span class="texto-categorias">Misión</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="historia" role="button">
+                        <span class="texto-categorias">Historia</span>
                     </a>
                 </li>
             </ul>
